@@ -5,6 +5,7 @@ function ProjectItem({ technologies }) {
   const tech = techs.map((tcs) => {
     return <span>{tcs}</span>;
   });
+  //.
   return (
     <div className="project-item">
       <h3>{name}</h3>
